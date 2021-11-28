@@ -4,7 +4,11 @@
 	padding:0;	
 }
 body{		
-	min-width:1200px;
+	width=device-width;
+	initial-scale=1.0;
+	minimum-scale=0.5;
+	maximum-scale=2.0;
+	user-scalable=yes;
 	margin:0 auto;
 	font-size:14px;	
 	font-family:PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Source Han Sans CN,sans-serif;
